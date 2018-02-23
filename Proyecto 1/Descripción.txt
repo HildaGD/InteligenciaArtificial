@@ -1,0 +1,5 @@
+Desarrollar una pequeña aplicación con cualquiera de los estos lenguaje:
+- PROLOG
+- LISP
+
+Describir hacia que va orientado.

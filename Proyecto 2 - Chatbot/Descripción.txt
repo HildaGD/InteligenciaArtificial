@@ -1,0 +1,6 @@
+CHATBOT 
+
+Programa con el que es posible mantener una conversación.
+
+La conversación llegar a una conclusión de la personalidad de dicho usuario. 
+Si es alegre o molesta.
