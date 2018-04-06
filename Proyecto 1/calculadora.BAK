@@ -1,7 +1,6 @@
 %CALCULADORA%
 
-- new(Ventana, dialog('')),
-               send (Ventana, open).
+- new(Ventana, dialog('')),send (Ventana, open).
 %suma:- write('ingrese primer numero: '),
   %  read(A),
    % write('ingrese segundo numero: '),
