@@ -1,0 +1,11 @@
+CreateTraining: width:16,height:16,type:RGB 
+Input: image:src/recursos/circulo.png, identity:circulo
+Input: image:src/recursos/cuadrado.png, identity:cuadrado  
+Input: image:src/recursos/triangulo.png, identity:triangulo 
+Input: image:src/recursos/hexagono.png, identity:hexagono 
+Network: hidden1:100, hidden2:0 
+Train: Mode:console, Minutes:1, StrategyError:0.25, StrategyCycles:50 
+Whatis: image:src/recursos/circulo.png 
+Whatis: image:src/recursos/cuadrado.png 
+Whatis: image:src/recursos/triangulo.png 
+Whatis: image:src/recursos/hexagono.png 

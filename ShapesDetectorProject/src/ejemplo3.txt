@@ -1,0 +1,53 @@
+CreateTraining: width:16,height:16,type:RGB 
+Input: image:src/recursos/circulo.png, identity:circulo
+Input: image:src/recursos/circulo_en_circulo.png, identity:circulo en circulo
+Input: image:src/recursos/circulo_en_cuadrado.png, identity:circulo en cuadrado
+Input: image:src/recursos/circulo_en_hexagono.png, identity:circulo en hexagono
+Input: image:src/recursos/circulo_en_triangulo.png, identity:circulo en triangulo
+Input: image:src/recursos/cuadrado.png, identity:cuadrado
+Input: image:src/recursos/cuadrado_en_circulo.png, identity:cuadrado en circulo
+Input: image:src/recursos/cuadrado_en_cuadrado.png, identity:cuadrado en cuadrado
+Input: image:src/recursos/cuadrado_en_hexagono.png, identity:cuadrado en hexagono
+Input: image:src/recursos/cuadrado_en_triangulo.png, identity:cuadrado en triangulo
+Input: image:src/recursos/triangulo.png, identity:triangulo
+Input: image:src/recursos/triangulo_en_circulo.png, identity:triangulo en circulo
+Input: image:src/recursos/triangulo_en_cuadrado.png, identity:triangulo en cuadrado
+Input: image:src/recursos/triangulo_en_hexagono.png, identity:triangulo en hexagono
+Input: image:src/recursos/triangulo_en_triangulo.png, identity:triangulo en triangulo
+Input: image:src/recursos/hexagono.png, identity:hexagono
+Input: image:src/recursos/hexagono_en_circulo.png, identity:hexagono en circulo
+Input: image:src/recursos/hexagono_en_cuadrado.png, identity:hexagono en cuadrado
+Input: image:src/recursos/hexagono_en_hexagono.png, identity:hexagono en hexagono
+Input: image:src/recursos/hexagono_en_triangulo.png, identity:hexagono en triangulo
+Input: image:src/recursos/hexagono.png, identity:rectangulo
+Input: image:src/recursos/rectangulo_en_circulo.png, identity:rectangulo en circulo
+Input: image:src/recursos/rectangulo_en_cuadrado.png, identity:rectangulo en cuadrado
+Input: image:src/recursos/rectangulo_en_hexagono.png, identity:rectangulo en rectangulo
+Input: image:src/recursos/rectangulo_en_triangulo.png, identity:rectangulo en triangulo
+Network: hidden1:100, hidden2:0 
+Train: Mode:console, Minutes:1, StrategyError:0.25, StrategyCycles:50 
+Whatis: image:src/recursos/circulo.png
+Whatis: image:src/recursos/circulo_en_circulo.png
+Whatis: image:src/recursos/circulo_en_cuadrado.png
+Whatis: image:src/recursos/circulo_en_hexagono.png
+Whatis: image:src/recursos/circulo_en_triangulo.png
+Whatis: image:src/recursos/cuadrado.png
+Whatis: image:src/recursos/cuadrado_en_circulo.png
+Whatis: image:src/recursos/cuadrado_en_cuadrado.png
+Whatis: image:src/recursos/cuadrado_en_hexagono.png
+Whatis: image:src/recursos/cuadrado_en_triangulo.png
+Whatis: image:src/recursos/triangulo.png
+Whatis: image:src/recursos/triangulo_en_circulo.png
+Whatis: image:src/recursos/triangulo_en_cuadrado.png
+Whatis: image:src/recursos/triangulo_en_hexagono.png
+Whatis: image:src/recursos/triangulo_en_triangulo.png
+Whatis: image:src/recursos/hexagono.png
+Whatis: image:src/recursos/hexagono_en_circulo.png
+Whatis: image:src/recursos/hexagono_en_cuadrado.png
+Whatis: image:src/recursos/hexagono_en_hexagono.png
+Whatis: image:src/recursos/hexagono_en_triangulo.png
+Whatis: image:src/recursos/rectangulo.png
+Whatis: image:src/recursos/rectangulo_en_circulo.png
+Whatis: image:src/recursos/rectangulo_en_cuadrado.png
+Whatis: image:src/recursos/rectangulo_en_hexagono.png
+Whatis: image:src/recursos/rectangulo_en_triangulo.png

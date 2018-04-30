@@ -1,0 +1,12 @@
+CreateTraining: width:16,height:16,type:RGB 
+Input: image:./recursos/dime.png, identity:dime 
+Input: image:./recursos/dollar.png, identity:dollar 
+Input: image:./recursos/half.png, identity:half dollar 
+Input: image:./recursos/nickle.png, identity:nickle 
+Input: image:./recursos/penny.png, identity:penny 
+Input: image:./recursos/quarter.png, identity:quarter 
+Network: hidden1:100, hidden2:0
+Train: Mode:console, Minutes:1, StrategyError:0.25, StrategyCycles:50 
+Whatis: image:./recursos/dime.png 
+Whatis: image:./recursos/half.png 
+Whatis: image:./recursos/testcoin.png
